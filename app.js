@@ -57,6 +57,7 @@ Add a New Project
   if (!portfolioData.projects) {
     portfolioData.projects = [];
   }
+
   return inquirer
     .prompt([
       {
